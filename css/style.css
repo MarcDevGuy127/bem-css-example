@@ -2,18 +2,60 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.card {}
+body {
+    background-color: rgb(189, 189, 211);
+    justify-items: center;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: rgba(245, 245, 245, 0.39);
+    padding: 50px;
+    max-width: 15%;
+}
 
 .card__header {}
 
-.card__title {}
+.card__title {
+    text-align: center;
+}
 
 .card__content {}
 
-.card__image {}
+.card__image {
+    max-height: 500px;
+    max-width: 500px;
+}
 
-.card__text {}
+.card__text {
+    text-align: left;
+}
 
-.card__text .btn {}
+@media screen {
+    
+}
+
+.card__text .btn {
+    display: flex;
+    pointer-events: stroke;
+    margin: 2 0px;
+    justify-items: center;
+    appearance: none;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    padding: 5px;
+    background-color: blue;
+}
+
+.card__text .btn:hover {
+    appearance: none;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    padding: 5px;
+    background-color: rgb(0, 0, 158);
+    font-weight: bold;
+}
 
 .card__link {}
