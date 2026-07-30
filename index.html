@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BEM example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <article class="card">
+        <div class="card__header">
+            <h1 class="card__title">Lorem Ipsum Title</h1>
+        </div>
+
+        <div class="card__content">
+            <img src="" alt=""  class="card__image">
+
+            <p class="card__text">
+                Lorem Ipsum dolor sit amet.
+            </p>
+
+            <p class="card__text">
+                Lorem Ipsum dolor sit
+                <a href="" class="card_link">amet</a>.
+                
+                <button class="btn is-disabled">Click me!</button>
+            </p>
+        </div>
+    </article>
 </body>
 </html>
